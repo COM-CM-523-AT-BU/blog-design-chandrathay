@@ -2,3 +2,133 @@
 Put your styles in this file. Import your fonts at the top of the file! See example below, which uses @import to retrieve the Roboto typeface from Google Fonts.
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: "Source Serif 4", Georgia, serif;
+    box-sizing: border-box;
+    max-width: 45vw;
+    margin: auto;
+    font-size: 1.25rem;
+}
+
+header h2 {
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.025rem;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    text-align: center;
+    max-width: 100%;
+    display: block;
+}
+
+header h5, header h1 {
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+}
+
+article > header, article > div {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.meta-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 1rem;
+    margin: 1rem auto;
+    gap: 1rem;
+    border-top: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    max-width: 45vw;
+}
+
+.meta-data li {
+    color: #6B6B6B;
+    font-size: 0.85rem;
+}
+
+#sms {
+    margin-left: 0;
+    white-space: nowrap;
+}
+
+#sms button {
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #6B6B6B;
+    border-radius: 5%;
+    font-size: 0.75rem;
+    color: white;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+}
+
+#sms button:hover {
+    cursor: pointer;
+}
+
+#twitter {
+    background-color: #1DA1F2;
+    margin-left: 0.25rem;
+}
+
+
+#linkedin {
+    background-color: #0a66c2;
+}
+
+
+aside {
+    border-bottom: 1px solid #DFDFDF;
+    padding-bottom: 0.5rem;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+}
+
+aside h4, aside h5, aside p {
+    margin: 0.25rem;
+}
+
+aside h4 {
+    text-decoration: underline;
+    padding-top: 0.5rem;
+}
+
+aside p {
+    padding-bottom: 0.5rem;
+}
+
+#summary {
+    font-style: italic;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+#summary span {
+    font-weight: bold;
+}
+
+
+blockquote {
+    border-left: 5px solid black;
+    padding-left: 1rem;
+}
+
+img {
+    max-width: 40vw;
+    display: block;
+    align-items: center;
+}
+
+ul li.bullets {
+    margin-bottom: 1rem;
+}
+
+ul li.bullets p {
+    margin-top: 0.2rem;
+}
